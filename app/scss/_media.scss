@@ -1,0 +1,130 @@
+@media screen and(max-width: 1024px) {
+    .left_chu-img {
+        width: 60%;
+    }
+    .right_chu-img {
+        width: 50%;
+    }
+    .chupik_img {
+        width: 800px;
+        height: 710px;
+    }
+    .footer__icons,
+    .footer_copyright {
+        transition: all 0.5s ease;
+        width: 800px;
+        margin: 0 auto;
+    }
+}
+
+@media screen and (max-width: 777px) {
+    .set div img {
+        width: 70%;
+    }
+    .shapeWrapper {
+        height: 500px;
+    }
+    .chupik_img {
+        width: 700px;
+        height: 650px;
+        margin-left: -30px;
+    }
+    .footer__icons-item img {
+        width: 70px;
+    }
+    .left_chu-img {
+        width: 70%;
+        bottom: 0;
+    }
+    .footer__icons,
+    .footer_copyright {
+        transition: all 0.5s ease;
+        width: 550px;
+        margin: 0 auto;
+        padding-bottom: 15px;
+    }
+    .main {
+        margin-bottom: 55px;
+    }
+}
+
+@media(max-width: 580px) {
+    .left_chu-img {
+        width: 85%;
+        z-index: 1;
+    }
+    .right_chu-img {
+        width: 40%;
+        z-index: 0;
+    }
+    .chupik_img {
+        width: 540px;
+        height: 470px;
+        margin-left: -30px;
+    }
+    .btn_img {
+        width: 270px;
+    }
+    .footer__icons {
+        width: 450px;
+        padding-bottom: 20px;
+    }
+    .footer_copyright {
+        width: 380px;
+        font-size: 9px;
+    }
+}
+
+@media(max-width: 425px) {
+    .chupik_img {
+        width: 450px;
+        height: 430px;
+        margin-left: -30px;
+    }
+    .footer__icons {
+        margin: -25px;
+    }
+    .footer__icons-item {
+        width: 120px;
+    }
+    .footer__icons img {
+        width: 50px;
+    }
+    .footer__icons {
+        width: 450px;
+        padding-bottom: 50px;
+    }
+    .footer_copyright {
+        width: 360px;
+    }
+}
+
+@media(max-width: 410px) {
+    .footer__icons-item {
+        width: 100px;
+    }
+    .btn_img {
+        width: 220px;
+    }
+    .footer__icons {
+        width: 380px;
+    }
+    .footer_copyright {
+        width: 320px;
+    }
+}
+
+@media(max-width: 350px) {
+    .footer_copyright {
+        width: 270px;
+    }
+}
+
+@media(max-height: 935px) {
+    #container {
+        margin-top: 0;
+    }
+    .chupik_img {
+        margin-top: 0;
+    }
+}

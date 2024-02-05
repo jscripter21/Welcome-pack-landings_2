@@ -36,22 +36,16 @@ body {
 }
 
 .chupik_img {
-    width: 950px;
-    height: 910px;
+    margin-top: 100px;
+    margin-left: 80px;
+    width: 1120px;
+    height: 1050px;
 }
 
 .bufer-box {
     display: flex;
-    color: #FF9C28;
-    font-family: Montserrat;
-    font-size: 24.475px;
-    font-weight: 700;
-    line-height: 21.651px;
-    text-transform: uppercase;
     position: absolute;
-    bottom: 25%;
-    transform: translate(-55%, -50%);
-    align-items: center;
+    bottom: 20%;
 }
 
 @keyframes pulse {
@@ -102,7 +96,7 @@ body {
 .footer__icons-item {
     width: 150px;
     margin-bottom: 6px;
-    z-index: 800;
+    z-index: 999;
 }
 
 .footer_copyright {
@@ -115,14 +109,15 @@ body {
     font-style: normal;
     font-weight: 300;
     padding-bottom: 40px;
-    z-index: 99;
+    z-index: 999;
 }
 
 .left_chu-img {
     position: absolute;
     left: 0;
     bottom: -50px;
-    width: 45%;
+    width: 40%;
+    z-index: 1;
 }
 
 .right_chu-img {
@@ -130,10 +125,20 @@ body {
     right: 0;
     bottom: 0;
     width: 30%;
+    z-index: 1;
+}
+
+.shadow_bottom {
+    position: absolute;
+    bottom: -3px;
+    width: 100%;
+    left: 0;
+    z-index: 889;
+    height: 35vh;
 }
 
 #container {
-    margin-top: 80px;
+    margin-top: 20px;
     display: flex;
     align-items: center;
     justify-content: center;

@@ -17,12 +17,19 @@
     }
 }
 
+@media screen and (max-width: 940px) {
+    .shapeWrapper {
+        margin-top: 70px;
+    }
+}
+
 @media screen and (max-width: 777px) {
     .set div img {
         width: 70%;
     }
     .shapeWrapper {
-        height: 500px;
+        margin-top: 100px;
+        height: 600px;
     }
     .chupik_img {
         width: 700px;
@@ -57,10 +64,16 @@
         width: 40%;
         z-index: 0;
     }
+    .shapeWrapper {
+        margin-top: 30px;
+    }
     .chupik_img {
         width: 540px;
         height: 470px;
         margin-left: -30px;
+    }
+    .bufer-box {
+        bottom: 24%;
     }
     .btn_img {
         width: 270px;
@@ -120,11 +133,26 @@
     }
 }
 
-@media(max-height: 935px) {
-    #container {
-        margin-top: 0;
+@media(max-height: 932px) {
+    .shapeWrapper {
+        margin-top: -15px;
     }
     .chupik_img {
         margin-top: 0;
+    }
+    .bufer-box {
+        bottom: 29%;
+    }
+}
+
+@media(max-height: 600px) {
+    .shapeWrapper {
+        margin-top: 15px;
+    }
+    .chupik_img {
+        margin-top: 0;
+    }
+    .bufer-box {
+        bottom: 29%;
     }
 }
